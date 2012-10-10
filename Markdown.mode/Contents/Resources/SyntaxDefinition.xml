@@ -7,25 +7,25 @@
         </charsintokens> 
     </head>
     <states>
-        <default id="Base" color="#000000" inverted-color="#ffffff"  font-style="normal" font-weight="normal" background-color="#ffffff" inverted-background-color="#000000">
-            <keywords id="Titles" color="#808080" inverted-color="#cc66ff" font-style="normal" font-weight="bold">
+        <default id="Base" color="#000000" inverted-color="#ffffff" font-style="normal" font-weight="normal" background-color="#ffffff" inverted-background-color="#000000">
+            <keywords id="Other Titles" color="#808080" font-style="normal" font-weight="bold">
                 <regex>([=]{3,}?(?=\n))</regex>
                 <regex>([-]{3,}?(?=\n))</regex>
                 <regex>(^#{1,6}\s*[^#\n]*[^\S\n]*#*)\n</regex>
             </keywords>
-            <keywords id="T1" color="#f00000" font-weight="bold">
+            <keywords id="Title 1" color="#f00000" font-weight="bold">
                 <regex>(^#\s*[^#\n]*[^\S\n]*#*)\n</regex>
             </keywords>
-            <keywords id="T2" color="#b02020" font-weight="bold">
+            <keywords id="Title 2" color="#b02020" font-weight="bold">
                 <regex>(^##\s*[^#\n]*[^\S\n]*#*)\n</regex>
             </keywords>
-            <keywords id="T3" color="#802020" font-weight="bold">
+            <keywords id="Title 3" color="#802020" font-weight="bold">
                 <regex>(^###\s*[^#\n]*[^\S\n]*#*)\n</regex>
             </keywords>
-            <keywords id="T4" color="#604040" font-weight="bold">
+            <keywords id="Title 4" color="#604040" font-weight="bold">
                 <regex>(^####\s*[^#\n]*[^\S\n]*#*)\n</regex>
             </keywords>
-            <keywords id="T5" color="#606060" font-weight="bold">
+            <keywords id="Title 5" color="#606060" font-weight="bold">
                 <regex>(^#####\s*[^#\n]*[^\S\n]*#*)\n</regex>
             </keywords>
             <keywords id="Link Text" color="#236e25" inverted-color="#91dc93"  font-style="normal" font-weight="normal">
